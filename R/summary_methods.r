@@ -460,6 +460,7 @@ setGeneric('getCommunitySlope', function(object, ...)
     standardGeneric('getCommunitySlope'))
 
 #' @describeIn getCommunitySlope
+#' @importFrom stats lm time
 setMethod('getCommunitySlope', signature(object = 'MizerSim'),
     function(object, species = 1:nrow(object@params@species_params),
              biomass = TRUE, ...) {

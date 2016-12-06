@@ -15,7 +15,7 @@ Description: A set of classes and methods to set up and run multispecies, trait
     based and community size spectrum ecological models, focussed on the marine
     environment.
 Depends:
-    R (>= 3.0)
+    R (>= 3.3.0)
 Suggests:
     testthat,
     roxygen2,

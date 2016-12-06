@@ -475,6 +475,7 @@ setMethod('MizerParams', signature(object='numeric', interaction='missing'),
 
 #' Constructor that takes the species_params data.frame and the interaction matrix
 #' @describeIn MizerParams
+#' @importFrom utils combn
 setMethod('MizerParams', signature(object='data.frame', interaction='matrix'),
     function(object, interaction,  n = 2/3, p = 0.7, q = 0.8, r_pp = 10, 
              kappa = 1e11, lambda = (2+q-n), w_pp_cutoff = 10, 
