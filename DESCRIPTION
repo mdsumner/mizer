@@ -19,7 +19,8 @@ Depends:
 Suggests:
     testthat,
     roxygen2,
-    knitr
+    knitr,
+    covr
 Collate:
     'MizerParams-class.r'
     'MizerSim-class.r'

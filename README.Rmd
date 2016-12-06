@@ -5,6 +5,7 @@ output: github_document
 [![Travis-CI Build Status](https://travis-ci.org/mdsumner/mizer.svg?branch=master)](https://travis-ci.org/mdsumner/mizer)
 
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/mdsumner/mizer?branch=master&svg=true)](https://ci.appveyor.com/project/mdsumner/mizer)
+[![Coverage Status](https://img.shields.io/codecov/c/github/mdsumner/mizer/master.svg)](https://codecov.io/github/mdsumner/mizer?branch=master)
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
